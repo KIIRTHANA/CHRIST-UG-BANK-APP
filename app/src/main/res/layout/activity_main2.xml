@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_two_bg"
+    tools:context="com.example.christugbank.Main2Activity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE" />
+
+    <EditText
+        android:id="@+id/t14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    $ ACCOUNT STATEMENT $ "
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:background="#EEE8AA"
+        android:ems="10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        />
+    <EditText
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:text="              SUMMARY"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/t55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b"
+        android:layout_alignStart="@+id/b"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="80dp"
+        android:background="#ABDAA520"
+        android:text=" ACCOUNT TYPE - SAVINGS"
+        android:ems="19"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/t45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b"
+        android:layout_alignStart="@+id/b"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp"
+        android:background="#AEDAA520"
+        android:text=" ACCOUNT HOLDER'S NAME= KIRTHANA"
+        android:ems="19"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/t46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b"
+        android:layout_alignStart="@+id/b"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="110dp"
+        android:background="#A6DAA520"
+        android:text=" ACCOUNT BRANCH - J.C.NAGAR"
+        android:ems="19"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/t47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b"
+        android:layout_alignStart="@+id/b"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="140dp"
+        android:background="#A6DAA520"
+        android:text=" ACCOUNT BALANCE - Rs.12000 "
+        android:ems="19"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/t48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b"
+        android:layout_alignStart="@+id/b"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="170dp"
+        android:background="#A6DAA520"
+        android:text=" IFSC - 7189 0987 1234"
+        android:ems="19"
+        android:textSize="20sp" />
+    <ImageView
+        android:id="@+id/my_img"
+        android:src="@drawable/ic_kir"
+        android:layout_width="match_parent"
+        android:layout_marginTop="400dp"
+        android:layout_height="150dp"/>
+
+
+
+
+</RelativeLayout>

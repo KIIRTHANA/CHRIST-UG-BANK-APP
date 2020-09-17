@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_o"
+    tools:context="com.example.christugbank.MainActivity"
+    >
+
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="17dp"
+        android:background="#7B68EE"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t1"
+        android:layout_alignStart="@+id/t1"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="15dp"
+        android:background="#7B68EE"
+        android:ems="10"
+        android:hint="Account Number"
+        android:inputType="numberSigned"
+        />
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t2"
+        android:layout_alignStart="@+id/t2"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="15dp"
+        android:background="#fb1177"
+        android:ems="10"
+
+        />
+
+    <Switch
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/t1"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Switch" />
+
+    <ToggleButton
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:layout_centerHorizontal="true"
+        android:background="#11ff00"
+        android:textOn="Deposit"
+        android:textOff="Withraw"
+        android:layout_marginTop="20dp"
+        android:text="ToggleButton" />
+
+    <EditText
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:background="#7FFFD4"
+        android:ems="9"
+        android:hint="Enter The Amount"
+        android:textSize="20sp"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b"
+        android:layout_alignStart="@+id/b"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp"
+        android:background="#FFB6C1"
+        android:ems="10"
+        android:text="Total Amount"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tb"
+        android:layout_alignRight="@+id/tb"
+        android:layout_below="@+id/tb"
+        android:background="#ff0"
+        android:onClick="DoHandle"
+        android:layout_marginTop="22dp"
+        android:text="Do" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t4"
+        android:layout_centerHorizontal="true"
+        android:text="CLICK TO VIEW PROFILE" />
+
+
+
+</RelativeLayout>
